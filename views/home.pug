@@ -1,0 +1,41 @@
+extends  base.pug
+
+block scripts  
+   script(src='/static/index.js') 
+block style 
+   style
+      include ../static/style.css
+block content  
+    section#introSection
+        div Welcome to Priyanshu Dance Academy
+        div.small Eat Sleep Dance Repeat
+    section#mission 
+        h2 Our mission    
+        div.card
+          h3 Dance performance
+          div.card-box
+             div.card-img 
+                 img(src="/static/img/i2.png", alt="")
+             div.card-content     
+                 p This is best dance academy 
+        div.card
+          h3 New Dance steps
+          div.card-box
+             div.card-img 
+                 img(src="/static/img/i5.png", alt="")
+             div.card-content     
+                 p This is best dance academy
+        div.card
+          h3 Our progress
+          div.card-box
+             div.card-img 
+                 img(src="/static/img/i6.png", alt="")
+             div.card-content     
+                 p This is best dance academy
+    section#sponsorsSection
+        h2 Our Sponsors
+        div#sponsors 
+           img(src="/static/img/logsk.png", alt="Sponsors Image", class="spImage")
+           img(src="/static/img/logob.png", alt="Sponsors Image", class="spImage")
+           img(src="/static/img/i8.png", alt="Sponsors Image", class="spImage")
+           img(src="/static/img/i9.png", alt="Sponsors Image", class="spImage")         

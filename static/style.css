@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    margin: 0px, 14px;
+    color: black;
+}
+#logo img{
+    height: 40px;
+}
+#navbar{
+    background-color: rgb(247, 242, 242);
+    font-family: 'Yeon Sung' ;
+    padding: 13px, 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+   text-decoration: none;
+    padding: 20px 30px;
+}
+#navbar li a:hover{
+    color: black;  
+}
+#introSection{
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 65px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/dance.jpg") ;
+    height: 425px;
+    background-color: red;
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+#mission{
+    height: 326px;
+    width: 67%;
+    margin: auto;
+
+}
+#mission h2{
+    font-size: 36px;
+    font-family: 'Yeon sung';
+    text-align: center;
+    padding: 12px;
+}
+#mission h3{
+    font-size: 20px;
+    font-family: 'Yeon sung';
+    text-align: center;
+    padding: 12px;
+}
+.card{
+    border: 4px solid black;
+    border-radius: 10px;
+    width: 27%;
+    margin: 23px 20px;
+    height: 209px; 
+    display: inline-block;
+    background-color: gray;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 80px;
+    padding: 0px 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0px 10px;
+}
+.card-content p{
+    font-size: 15px;
+    align-items:center;
+}
+#sponsorsSection h2{
+    font-size: 36px;
+    font-family: 'Yeon sung';
+    text-align: center;
+    padding: 12px;
+}
+#sponsorsSection{
+    height: 300px;
+    background-color: #fbd6d6c7;
+    text-align: center;
+}
+#sponsors{
+    height: 120px;
+    max-width: 650px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    /* flex-direction: row; */
+    
+}
+
+.spImage{
+    height: 120px;
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    /* display: inline-block; */
+    /* display: flex;
+    flex-direction: column; */
+}
+
+   
+#footer{
+    background-color: #e4aeae;
+    height: 100px;
+}
